@@ -1,0 +1,26 @@
+/* queue */
+#right-block-down {
+  position: absolute;
+  margin: 0.5%;
+  border: 0.25vw solid #015433;
+  border-radius: 1vw;
+  inset: 50% 51% 0 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* Queue Delete Button */
+.queue_remove_button {
+  border-radius: 1vw;
+  padding: 1vw;
+  color: white;
+  background-color: hsl(0, 80%, 45%);
+
+  &:hover {
+    background-color: hsl(0, 80%, 40%);
+  }
+
+  &:active {
+    background-color: hsl(0, 80%, 35%);
+  }
+}
