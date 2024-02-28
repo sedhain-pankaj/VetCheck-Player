@@ -2,7 +2,7 @@
 This is a stripped version of my other repository `Craig Music Player`. It has even further stripped version `Vetcheck-Player-min` that just plays the video in full screen and skips to the next one upon ending.
 
 ## Description
-VetCheck Player is a multimedia player application designed specifically for veterinary clinics. It allows veterinarians and clinic staff to easily manage and play educational videos and presentations for pet owners.
+VetCheck Player is a multimedia player application designed specifically for veterinary clinics. It allows veterinarians and clinic staff to easily manage and play educational videos and presentations for pet owners. NOTE: you will need YouTube v3 API key to use this app inside youtube.JS. The database_creator.js also uses this key to parse youtube URL into required JSON objects which can be copy-pasted into category.json file.
 
 ## Features
 - Starts straight with a shuffle and will loop through the playlist
@@ -33,3 +33,6 @@ For any inquiries or support, please contact the project maintainer at [sedhain.
 
 ## Demo
 ![Demo](demo.png)
+
+## UI Inspiration
+<img src="https://camo.githubusercontent.com/264e76271b2af92ba14f36421c7450d1f061f301e95867509931ff37f8a1ae72/68747470733a2f2f7261772e6769746875622e636f6d2f6a6774686d732f6a756b65747562652f6d61737465722f6a756b65747562652e706e67">
